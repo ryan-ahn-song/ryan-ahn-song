@@ -26,7 +26,8 @@ I work across web, mobile, and backend development, with experience leading proj
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=aws&amp;theme=light" width="48" height="48" alt="AWS" title="AWS" /></picture>
 </p>
 
-## Experience
+<details>
+<summary><h2>Experience</h2></summary>
 
 ### Experience
 
@@ -57,6 +58,8 @@ I work across web, mobile, and backend development, with experience leading proj
 
 **2024**
 - **YEEP Youth Entrepreneurship Competition** — Excellence Award (Intel Korea Branch Director's Award)
+
+</details>
 
 ---
 
