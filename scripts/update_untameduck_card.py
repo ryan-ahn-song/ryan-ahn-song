@@ -118,30 +118,30 @@ def card_frame(theme):
     """Shared border, radius and canvas dimensions for both card designs."""
     c = THEMES[theme]
     return (
-        f'<rect x="0.75" y="0.75" width="958.5" height="120.5" rx="13.25" '
+        f'<rect x="0.75" y="0.75" width="958.5" height="108.5" rx="13.25" '
         f'fill="{c["background"]}" stroke="{c["border"]}" stroke-width="1.5"/>'
     )
 
 
 def svg(stats, theme):
-    """Wide, half-height 960x122 card with monochrome light/dark backgrounds."""
+    """Wide, half-height 960x110 card with monochrome light/dark backgrounds."""
     c = THEMES[theme]
     ff = "-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"
     items = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="122" viewBox="0 0 960 122" role="img" aria-labelledby="title desc">',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="110" viewBox="0 0 960 110" role="img" aria-labelledby="title desc">',
         f'<title id="title">Project Hub / UntameDuck — {theme} theme</title>',
         '<desc id="desc">UntameDuck GitHub organization statistics: public repositories, contributors, stars and forks</desc>',
         card_frame(theme),
-        f'<text x="32" y="70" font-family="{ff}" font-size="24" fill="{c["heading"]}">Project Hub / <tspan font-weight="700">UntameDuck</tspan></text>',
-        f'<path d="M428 31V92" fill="none" stroke="{c["separator"]}" stroke-width="1"/>',
+        f'<text x="32" y="64" font-family="{ff}" font-size="24" fill="{c["heading"]}">Project Hub / <tspan font-weight="700">UntameDuck</tspan></text>',
+        f'<path d="M428 25V85" fill="none" stroke="{c["separator"]}" stroke-width="1"/>',
     ]
     positions = (460, 589, 710, 832)
     for (label, value), x in zip(stats, positions):
         items.append(
-            f'<text x="{x}" y="59" font-family="{ff}" font-size="27" font-weight="700" fill="{c["text"]}">{value:,}</text>'
+            f'<text x="{x}" y="54" font-family="{ff}" font-size="27" font-weight="700" fill="{c["text"]}">{value:,}</text>'
         )
         items.append(
-            f'<text x="{x}" y="80" font-family="{ff}" font-size="10" letter-spacing=".45" fill="{c["muted"]}">{label}</text>'
+            f'<text x="{x}" y="75" font-family="{ff}" font-size="10" letter-spacing=".45" fill="{c["muted"]}">{label}</text>'
         )
     items.append('</svg>')
     return "\n".join(items) + "\n"
@@ -151,16 +151,16 @@ def experience_svg(theme):
     c = THEMES[theme]
     ff = "-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"
     lines = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="122" viewBox="0 0 960 122" role="img" aria-labelledby="title desc">',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="110" viewBox="0 0 960 110" role="img" aria-labelledby="title desc">',
         f'<title id="title">Experience and Achievements — {theme} theme</title>',
         '<desc id="desc">8 roles and activities, 11 achievements. Select the card for details.</desc>',
         card_frame(theme),
-        f'<text x="32" y="69" font-family="{ff}" font-size="24" font-weight="700" fill="{c["heading"]}">Experience</text>',
-        f'<path d="M428 31V92" fill="none" stroke="{c["separator"]}" stroke-width="1"/>',
-        f'<text x="460" y="59" font-family="{ff}" font-size="27" font-weight="700" fill="{c["heading"]}">8</text>',
-        f'<text x="460" y="80" font-family="{ff}" font-size="10" letter-spacing=".45" fill="{c["muted"]}">ROLES &amp; ACTIVITIES</text>',
-        f'<text x="667" y="59" font-family="{ff}" font-size="27" font-weight="700" fill="{c["heading"]}">11</text>',
-        f'<text x="667" y="80" font-family="{ff}" font-size="10" letter-spacing=".45" fill="{c["muted"]}">ACHIEVEMENTS</text>',
+        f'<text x="32" y="64" font-family="{ff}" font-size="24" font-weight="700" fill="{c["heading"]}">Experience</text>',
+        f'<path d="M428 25V85" fill="none" stroke="{c["separator"]}" stroke-width="1"/>',
+        f'<text x="460" y="54" font-family="{ff}" font-size="27" font-weight="700" fill="{c["heading"]}">8</text>',
+        f'<text x="460" y="75" font-family="{ff}" font-size="10" letter-spacing=".45" fill="{c["muted"]}">ROLES &amp; ACTIVITIES</text>',
+        f'<text x="667" y="54" font-family="{ff}" font-size="27" font-weight="700" fill="{c["heading"]}">11</text>',
+        f'<text x="667" y="75" font-family="{ff}" font-size="10" letter-spacing=".45" fill="{c["muted"]}">ACHIEVEMENTS</text>',
         '</svg>'
     ]
     return "\n".join(lines) + "\n"
