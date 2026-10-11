@@ -19,6 +19,7 @@ API_ROOT = "https://api.github.com"
 THEMES = {
     "light": {
         "background": "#FFFFFF",
+        "border": "#E7E7E7",
         "heading": "#161616",
         "text": "#262626",
         "muted": "#666666",
@@ -26,6 +27,7 @@ THEMES = {
     },
     "dark": {
         "background": "#000000",
+        "border": "#2A2A2A",
         "heading": "#FFFFFF",
         "text": "#FFFFFF",
         "muted": "#A0A0A0",
@@ -120,7 +122,7 @@ def svg(stats, theme):
         '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="122" viewBox="0 0 960 122" role="img" aria-labelledby="title desc">',
         f'<title id="title">Project Hub / UntameDuck — {theme} theme</title>',
         '<desc id="desc">UntameDuck GitHub organization statistics: public repositories, contributors, stars and forks</desc>',
-        f'<rect width="960" height="122" rx="14" fill="{c["background"]}"/>',
+        f'<rect x="0.75" y="0.75" width="958.5" height="120.5" rx="13.25" fill="{c["background"]}" stroke="{c["border"]}" stroke-width="1.5"/>',
         f'<text x="32" y="70" font-family="{ff}" font-size="24" fill="{c["heading"]}">Project Hub / <tspan font-weight="700">UntameDuck</tspan></text>',
         f'<path d="M428 31V92" fill="none" stroke="{c["separator"]}" stroke-width="1"/>',
     ]
