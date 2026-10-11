@@ -26,14 +26,14 @@
 
 <a href="https://github.com/UntameDuck">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryan-ahn-song/ryan-ahn-song/main/assets/untameduck-dark.svg?v=slim-110" />
-    <img src="https://raw.githubusercontent.com/ryan-ahn-song/ryan-ahn-song/main/assets/untameduck-light.svg?v=slim-110" alt="UntameDuck organization card: public repositories, unique contributors, stars and forks" width="960" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryan-ahn-song/ryan-ahn-song/main/assets/untameduck-dark.svg?v=slim-100" />
+    <img src="https://raw.githubusercontent.com/ryan-ahn-song/ryan-ahn-song/main/assets/untameduck-light.svg?v=slim-100" alt="UntameDuck organization card: public repositories, unique contributors, stars and forks" width="960" />
   </picture>
 </a>
 
 <a href="https://github.com/ryan-ahn-song/ryan-ahn-song/blob/main/experience/README.md">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryan-ahn-song/ryan-ahn-song/main/assets/experience-dark.svg?v=slim-110" />
-    <img src="https://raw.githubusercontent.com/ryan-ahn-song/ryan-ahn-song/main/assets/experience-light.svg?v=slim-110" width="960" alt="Experience — 8 roles and activities, 11 achievements. View the complete history." />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ryan-ahn-song/ryan-ahn-song/main/assets/experience-dark.svg?v=slim-100" />
+    <img src="https://raw.githubusercontent.com/ryan-ahn-song/ryan-ahn-song/main/assets/experience-light.svg?v=slim-100" width="960" alt="Experience — 8 roles and activities, 11 achievements. View the complete history." />
   </picture>
 </a>
