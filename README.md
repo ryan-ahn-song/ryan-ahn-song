@@ -6,13 +6,35 @@ I work across web, mobile, and backend development, with experience leading proj
 
 ## Tech Stack
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,java,kotlin,dart,cpp,c,bash,react,nextjs,nodejs,flutter,docker,aws&amp;perline=8&amp;theme=dark" />
-  <img src="https://skillicons.dev/icons?i=py,ts,js,java,kotlin,dart,cpp,c,bash,react,nextjs,nodejs,flutter,docker,aws&amp;perline=8&amp;theme=light" alt="Python, TypeScript, JavaScript, Java, Kotlin, Dart, C++, C, Bash, React, Next.js, Node.js, Flutter, Docker, AWS" />
-</picture>
+**Languages**
 
-`Python` · `TypeScript` · `JavaScript` · `Java` · `Kotlin` · `Dart` · `C++` · `C` · `Bash`  
-`React` · `Next.js` · `Node.js` · `Flutter` · `Docker` · `AWS`
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=py&amp;theme=light" width="48" height="48" alt="Python" title="Python" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=ts&amp;theme=light" width="48" height="48" alt="TypeScript" title="TypeScript" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=js&amp;theme=light" width="48" height="48" alt="JavaScript" title="JavaScript" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=java&amp;theme=light" width="48" height="48" alt="Java" title="Java" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kotlin&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=kotlin&amp;theme=light" width="48" height="48" alt="Kotlin" title="Kotlin" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=dart&amp;theme=light" width="48" height="48" alt="Dart" title="Dart" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cpp&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=cpp&amp;theme=light" width="48" height="48" alt="C++" title="C++" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=c&amp;theme=light" width="48" height="48" alt="C" title="C" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=bash&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=bash&amp;theme=light" width="48" height="48" alt="Bash" title="Bash" /></picture>
+</p>
+
+**Web & Backend**
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=react&amp;theme=light" width="48" height="48" alt="React" title="React" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nextjs&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=nextjs&amp;theme=light" width="48" height="48" alt="Next.js" title="Next.js" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=nodejs&amp;theme=light" width="48" height="48" alt="Node.js" title="Node.js" /></picture>
+</p>
+
+**Mobile & Infrastructure**
+
+<p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=flutter&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=flutter&amp;theme=light" width="48" height="48" alt="Flutter" title="Flutter" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=docker&amp;theme=light" width="48" height="48" alt="Docker" title="Docker" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=aws&amp;theme=light" width="48" height="48" alt="AWS" title="AWS" /></picture>
+</p>
 
 ## Experience
 
