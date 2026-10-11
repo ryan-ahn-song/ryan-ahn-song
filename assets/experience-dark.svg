@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="110" viewBox="0 0 960 110" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="100" viewBox="0 0 960 100" role="img" aria-labelledby="title desc">
 <title id="title">Experience and Achievements — dark theme</title>
 <desc id="desc">8 roles and activities, 11 achievements. Select the card for details.</desc>
-<rect x="0.75" y="0.75" width="958.5" height="108.5" rx="13.25" fill="#000000" stroke="#3D444D" stroke-width="1.5"/>
-<text x="32" y="64" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Experience</text>
-<path d="M428 25V85" fill="none" stroke="#262626" stroke-width="1"/>
-<text x="460" y="54" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">8</text>
-<text x="460" y="75" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#A0A0A0">ROLES &amp; ACTIVITIES</text>
-<text x="667" y="54" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">11</text>
-<text x="667" y="75" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#A0A0A0">ACHIEVEMENTS</text>
+<rect x="0.75" y="0.75" width="958.5" height="98.5" rx="13.25" fill="#000000" stroke="#3D444D" stroke-width="1.5"/>
+<text x="32" y="59" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Experience</text>
+<path d="M428 20V80" fill="none" stroke="#262626" stroke-width="1"/>
+<text x="460" y="49" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">8</text>
+<text x="460" y="70" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#A0A0A0">ROLES &amp; ACTIVITIES</text>
+<text x="667" y="49" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">11</text>
+<text x="667" y="70" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#A0A0A0">ACHIEVEMENTS</text>
 </svg>
