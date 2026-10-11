@@ -28,7 +28,6 @@ I work across web, mobile, and backend development, with experience leading proj
 
 <details>
 <summary><h2>Experience</h2></summary>
-
 ### Experience
 
 - **DSHUB** — Lead developer and maintenance manager
@@ -60,7 +59,3 @@ I work across web, mobile, and backend development, with experience leading proj
 - **YEEP Youth Entrepreneurship Competition** — Excellence Award (Intel Korea Branch Director's Award)
 
 </details>
-
----
-
-[GitHub](https://github.com/ryan-ahn-song) · [Projects](https://github.com/ryan-ahn-song?tab=repositories) · [UntameDuck](https://github.com/UntameDuck)
