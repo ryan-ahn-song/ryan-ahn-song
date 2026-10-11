@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a compact, responsive-light/dark UntameDuck organization card.
+"""Render a compact, theme-aware pair of UntameDuck and Experience cards.
 
 This script reads only public GitHub organization repository data. No personal
 access token or modification to any UntameDuck repository is required.
@@ -114,6 +114,15 @@ def collect_stats():
     ]
 
 
+def card_frame(theme):
+    """Shared border, radius and canvas dimensions for both card designs."""
+    c = THEMES[theme]
+    return (
+        f'<rect x="0.75" y="0.75" width="958.5" height="120.5" rx="13.25" '
+        f'fill="{c["background"]}" stroke="{c["border"]}" stroke-width="1.5"/>'
+    )
+
+
 def svg(stats, theme):
     """Wide, half-height 960x122 card with monochrome light/dark backgrounds."""
     c = THEMES[theme]
@@ -122,7 +131,7 @@ def svg(stats, theme):
         '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="122" viewBox="0 0 960 122" role="img" aria-labelledby="title desc">',
         f'<title id="title">Project Hub / UntameDuck — {theme} theme</title>',
         '<desc id="desc">UntameDuck GitHub organization statistics: public repositories, contributors, stars and forks</desc>',
-        f'<rect x="0.75" y="0.75" width="958.5" height="120.5" rx="13.25" fill="{c["background"]}" stroke="{c["border"]}" stroke-width="1.5"/>',
+        card_frame(theme),
         f'<text x="32" y="70" font-family="{ff}" font-size="24" fill="{c["heading"]}">Project Hub / <tspan font-weight="700">UntameDuck</tspan></text>',
         f'<path d="M428 31V92" fill="none" stroke="{c["separator"]}" stroke-width="1"/>',
     ]
@@ -137,14 +146,37 @@ def svg(stats, theme):
     items.append('</svg>')
     return "\n".join(items) + "\n"
 
+def experience_svg(theme):
+    """Render the Experience link using the exact same frame as Project Hub."""
+    c = THEMES[theme]
+    ff = "-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"
+    lines = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="122" viewBox="0 0 960 122" role="img" aria-labelledby="title desc">',
+        f'<title id="title">Experience and Achievements — {theme} theme</title>',
+        '<desc id="desc">8 roles and activities, 11 achievements. Select the card for details.</desc>',
+        card_frame(theme),
+        f'<text x="32" y="69" font-family="{ff}" font-size="24" font-weight="700" fill="{c["heading"]}">Experience</text>',
+        f'<path d="M428 31V92" fill="none" stroke="{c["separator"]}" stroke-width="1"/>',
+        f'<text x="460" y="59" font-family="{ff}" font-size="27" font-weight="700" fill="{c["heading"]}">8</text>',
+        f'<text x="460" y="80" font-family="{ff}" font-size="10" letter-spacing=".45" fill="{c["muted"]}">ROLES &amp; ACTIVITIES</text>',
+        f'<text x="667" y="59" font-family="{ff}" font-size="27" font-weight="700" fill="{c["heading"]}">11</text>',
+        f'<text x="667" y="80" font-family="{ff}" font-size="10" letter-spacing=".45" fill="{c["muted"]}">ACHIEVEMENTS</text>',
+        '</svg>'
+    ]
+    return "\n".join(lines) + "\n"
+
+
 def main():
     stats = collect_stats()
     OUT.mkdir(parents=True, exist_ok=True)
     for theme in THEMES:
-        dest = OUT / f"untameduck-{theme}.svg"
-        output = svg(stats, theme)
-        if not dest.exists() or dest.read_text(encoding="utf-8") != output:
-            dest.write_text(output, encoding="utf-8")
+        for kind, contents in (
+            ("untameduck", svg(stats, theme)),
+            ("experience", experience_svg(theme)),
+        ):
+            dest = OUT / f"{kind}-{theme}.svg"
+            if not dest.exists() or dest.read_text(encoding="utf-8") != contents:
+                dest.write_text(contents, encoding="utf-8")
     print("UntameDuck organization metrics:", ", ".join(f"{k}: {v}" for k, v in stats))
 
 
