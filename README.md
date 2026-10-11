@@ -28,6 +28,7 @@ I work across web, mobile, and backend development, with experience leading proj
 
 <details>
 <summary><h2>Experience</h2></summary>
+  
 ### Experience
 
 - **DSHUB** — Lead developer and maintenance manager
