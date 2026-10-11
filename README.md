@@ -24,6 +24,13 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=aws&amp;theme=light" width="48" height="48" alt="AWS" title="AWS" /></picture>
 </p>
 
+<p>
+  <a href="https://github.com/UntameDuck">
+    <img src="https://img.shields.io/badge/UntameDuck-Explore%20Projects-279CC2?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Explore UntameDuck projects" />
+  </a>
+  &nbsp;<sub>Building software together.</sub>
+</p>
+
 <details>
 <summary><h2>Experience</h2></summary>
   
