@@ -18,18 +18,18 @@ OUT = Path(__file__).resolve().parents[1] / "assets"
 API_ROOT = "https://api.github.com"
 THEMES = {
     "light": {
-        "bg1": "#F8FDFF", "bg2": "#E9F7FC", "stroke": "#CCE9F3",
-        "heading": "#123E58", "text": "#266480", "muted": "#628B9E",
-        "accent": "#179AC0", "glow": "#BFEAF6", "divider": "#C2DEE8",
-        "badge": "#E1F5FB", "badge_text": "#147B9D",
-        "wave": "#8ED5EA"
+        "background": "#FFFFFF",
+        "heading": "#161616",
+        "text": "#262626",
+        "muted": "#666666",
+        "separator": "#E8E8E8"
     },
     "dark": {
-        "bg1": "#101D2B", "bg2": "#102D3D", "stroke": "#2D5368",
-        "heading": "#F0FAFF", "text": "#CFEDF7", "muted": "#91B6C5",
-        "accent": "#71D6EB", "glow": "#22617B", "divider": "#31536A",
-        "badge": "#173D50", "badge_text": "#82E1F2",
-        "wave": "#31A4C8"
+        "background": "#000000",
+        "heading": "#FFFFFF",
+        "text": "#FFFFFF",
+        "muted": "#A0A0A0",
+        "separator": "#262626"
     }
 }
 
@@ -113,39 +113,27 @@ def collect_stats():
 
 
 def svg(stats, theme):
+    """Wide, half-height 960x122 card with monochrome light/dark backgrounds."""
     c = THEMES[theme]
     ff = "-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"
     items = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="244" viewBox="0 0 960 244" role="img" aria-labelledby="title desc">',
-        f'<title id="title">UntameDuck organization — {theme} theme</title>',
-        '<desc id="desc">Live public GitHub organization repository statistics</desc>',
-        '<defs>',
-        f'  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{c["bg1"]}"/><stop offset="1" stop-color="{c["bg2"]}"/></linearGradient>',
-        f'  <radialGradient id="ambient"><stop offset="0" stop-color="{c["glow"]}" stop-opacity=".75"/><stop offset="1" stop-color="{c["glow"]}" stop-opacity="0"/></radialGradient>',
-        '  <clipPath id="card-clip"><rect x="1" y="1" width="958" height="242" rx="19"/></clipPath>',
-        '</defs>',
-        f'<rect x="1" y="1" width="958" height="242" rx="19" fill="url(#background)" stroke="{c["stroke"]}" stroke-width="1.5"/>',
-        '<g clip-path="url(#card-clip)">',
-        '<ellipse cx="862" cy="5" rx="210" ry="140" fill="url(#ambient)" opacity=".5"/>',
-        f'<path d="M692 117C759 66 814 150 968 73" fill="none" stroke="{c["wave"]}" stroke-width="2" opacity=".24"/>',
-        f'<path d="M712 133C788 90 856 173 990 110" fill="none" stroke="{c["wave"]}" stroke-width="2" opacity=".16"/>',
-        '</g>',
-        f'<rect x="40" y="34" width="47" height="47" rx="13" fill="{c["badge"]}"/>',
-        f'<path d="M50 55c7-7 13 7 20 0s9-3 10 0M50 66c7-7 13 7 20 0s9-3 10 0" fill="none" stroke="{c["badge_text"]}" stroke-width="2.5" stroke-linecap="round"/>',
-        f'<text x="102" y="57" font-family="{ff}" font-size="26" font-weight="700" fill="{c["heading"]}">UntameDuck</text>',
-        f'<text x="103" y="79" font-family="{ff}" font-size="13" fill="{c["muted"]}">Building software together.</text>',
-        f'<text x="763" y="52" font-family="{ff}" font-size="11.5" letter-spacing=".7" font-weight="600" fill="{c["accent"]}">EXPLORE ORGANIZATION  &#8599;</text>',
-        f'<path d="M41 115H919" fill="none" stroke="{c["divider"]}" stroke-width="1"/>',
+        '<svg xmlns="http://www.w3.org/2000/svg" width="960" height="122" viewBox="0 0 960 122" role="img" aria-labelledby="title desc">',
+        f'<title id="title">Project Hub / UntameDuck — {theme} theme</title>',
+        '<desc id="desc">UntameDuck GitHub organization statistics: public repositories, contributors, stars and forks</desc>',
+        f'<rect width="960" height="122" rx="14" fill="{c["background"]}"/>',
+        f'<text x="32" y="70" font-family="{ff}" font-size="24" fill="{c["heading"]}">Project Hub / <tspan font-weight="700">UntameDuck</tspan></text>',
+        f'<path d="M428 31V92" fill="none" stroke="{c["separator"]}" stroke-width="1"/>',
     ]
-    xs = [46, 271, 496, 721]
-    for i, ((label, value), x) in enumerate(zip(stats, xs)):
-        if i:
-            items.append(f'<path d="M{x-15} 144V207" fill="none" stroke="{c["divider"]}" stroke-width="1"/>')
-        items.append(f'<text x="{x}" y="177" font-family="{ff}" font-weight="700" font-size="30" fill="{c["heading"]}">{value:,}</text>')
-        items.append(f'<text x="{x+1}" y="202" font-family="{ff}" letter-spacing=".8" font-size="11" fill="{c["muted"]}">{label}</text>')
+    positions = (460, 589, 710, 832)
+    for (label, value), x in zip(stats, positions):
+        items.append(
+            f'<text x="{x}" y="59" font-family="{ff}" font-size="27" font-weight="700" fill="{c["text"]}">{value:,}</text>'
+        )
+        items.append(
+            f'<text x="{x}" y="80" font-family="{ff}" font-size="10" letter-spacing=".45" fill="{c["muted"]}">{label}</text>'
+        )
     items.append('</svg>')
     return "\n".join(items) + "\n"
-
 
 def main():
     stats = collect_stats()
