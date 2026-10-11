@@ -4,8 +4,6 @@
 
 ## Tech Stack
 
-**Languages**
-
 <p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=py&amp;theme=light" width="48" height="48" alt="Python" title="Python" /></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=ts&amp;theme=light" width="48" height="48" alt="TypeScript" title="TypeScript" /></picture>
@@ -23,6 +21,8 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=docker&amp;theme=light" width="48" height="48" alt="Docker" title="Docker" /></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws&amp;theme=dark" /><img src="https://skillicons.dev/icons?i=aws&amp;theme=light" width="48" height="48" alt="AWS" title="AWS" /></picture>
 </p>
+
+## Links
 
 <a href="https://github.com/UntameDuck">
   <picture>
