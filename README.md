@@ -6,26 +6,13 @@ I work across web, mobile, and backend development, with experience leading proj
 
 ## Tech Stack
 
-**Languages**
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,java,kotlin,dart,cpp,c,bash&amp;theme=dark" />
-  <img src="https://skillicons.dev/icons?i=py,ts,js,java,kotlin,dart,cpp,c,bash&amp;theme=light" alt="Python, TypeScript, JavaScript, Java, Kotlin, Dart, C++, C, Bash" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,java,kotlin,dart,cpp,c,bash,react,nextjs,nodejs,flutter,docker,aws&amp;perline=8&amp;theme=dark" />
+  <img src="https://skillicons.dev/icons?i=py,ts,js,java,kotlin,dart,cpp,c,bash,react,nextjs,nodejs,flutter,docker,aws&amp;perline=8&amp;theme=light" alt="Python, TypeScript, JavaScript, Java, Kotlin, Dart, C++, C, Bash, React, Next.js, Node.js, Flutter, Docker, AWS" />
 </picture>
 
-**Web & Backend**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,nodejs&amp;theme=dark" />
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs&amp;theme=light" alt="React, Next.js, Node.js" />
-</picture>
-
-**Mobile & Infrastructure**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=flutter,docker,aws&amp;theme=dark" />
-  <img src="https://skillicons.dev/icons?i=flutter,docker,aws&amp;theme=light" alt="Flutter, Docker, AWS" />
-</picture>
+`Python` · `TypeScript` · `JavaScript` · `Java` · `Kotlin` · `Dart` · `C++` · `C` · `Bash`  
+`React` · `Next.js` · `Node.js` · `Flutter` · `Docker` · `AWS`
 
 ## Experience
 
