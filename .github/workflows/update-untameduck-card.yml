@@ -1,0 +1,47 @@
+name: Update UntameDuck Organization Card
+
+on:
+  schedule:
+    - cron: '13,43 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_untameduck_card.py'
+      - '.github/workflows/update-untameduck-card.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: untameduck-profile-card
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh light and dark organization cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_untameduck_card.py
+
+      - name: Commit cards only when statistics change
+        run: |
+          git add assets/untameduck-light.svg assets/untameduck-dark.svg
+          if git diff --cached --quiet; then
+            echo "No statistics have changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh UntameDuck organization card"
+          git push
