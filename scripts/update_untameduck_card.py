@@ -19,7 +19,7 @@ API_ROOT = "https://api.github.com"
 THEMES = {
     "light": {
         "background": "#FFFFFF",
-        "border": "#E7E7E7",
+        "border": "#D0D7DE",
         "heading": "#161616",
         "text": "#262626",
         "muted": "#666666",
@@ -27,7 +27,7 @@ THEMES = {
     },
     "dark": {
         "background": "#000000",
-        "border": "#2A2A2A",
+        "border": "#3D444D",
         "heading": "#FFFFFF",
         "text": "#FFFFFF",
         "muted": "#A0A0A0",
