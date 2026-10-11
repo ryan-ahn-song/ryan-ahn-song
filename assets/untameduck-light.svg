@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="122" viewBox="0 0 960 122" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="110" viewBox="0 0 960 110" role="img" aria-labelledby="title desc">
 <title id="title">Project Hub / UntameDuck — light theme</title>
 <desc id="desc">UntameDuck GitHub organization statistics: public repositories, contributors, stars and forks</desc>
-<rect x="0.75" y="0.75" width="958.5" height="120.5" rx="13.25" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1.5"/>
-<text x="32" y="70" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="24" fill="#161616">Project Hub / <tspan font-weight="700">UntameDuck</tspan></text>
-<path d="M428 31V92" fill="none" stroke="#E8E8E8" stroke-width="1"/>
-<text x="460" y="59" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#262626">14</text>
-<text x="460" y="80" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#666666">REPOSITORIES</text>
-<text x="589" y="59" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#262626">7</text>
-<text x="589" y="80" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#666666">CONTRIBUTORS</text>
-<text x="710" y="59" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#262626">0</text>
-<text x="710" y="80" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#666666">STARS</text>
-<text x="832" y="59" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#262626">0</text>
-<text x="832" y="80" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#666666">FORKS</text>
+<rect x="0.75" y="0.75" width="958.5" height="108.5" rx="13.25" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1.5"/>
+<text x="32" y="64" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="24" fill="#161616">Project Hub / <tspan font-weight="700">UntameDuck</tspan></text>
+<path d="M428 25V85" fill="none" stroke="#E8E8E8" stroke-width="1"/>
+<text x="460" y="54" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#262626">14</text>
+<text x="460" y="75" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#666666">REPOSITORIES</text>
+<text x="589" y="54" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#262626">7</text>
+<text x="589" y="75" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#666666">CONTRIBUTORS</text>
+<text x="710" y="54" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#262626">0</text>
+<text x="710" y="75" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#666666">STARS</text>
+<text x="832" y="54" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#262626">0</text>
+<text x="832" y="75" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing=".45" fill="#666666">FORKS</text>
 </svg>
