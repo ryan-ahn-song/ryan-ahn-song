@@ -37,7 +37,7 @@ I work across web, mobile, and backend development, with experience leading proj
 - **KERNEL** — Grade-level representative
 - **ACT (KE)** — Club treasurer
 - **2025** — Led operations for an industry–academia entrepreneurship hackathon
-- **2025** — Completed the advanced course at an Informatics Gifted Education Center
+- **2025** — Completed the advanced course at an Information Security Gifted Education Center
 - **2026** — Operations advisor and technical mentor for an industry–academia entrepreneurship hackathon
 
 ### Achievements
