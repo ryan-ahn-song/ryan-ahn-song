@@ -1,6 +1,6 @@
 # Hi, I'm ryan-ahn-song.
 
-**Software Developer** focused on building useful products and hoping to **Change the World** . I work across web, mobile, and backend development, with experience leading projects, operating services, and collaborating in various competitions.
+**Software Engineer** focused on building innovative products and creating meaningful impact. I work across web, mobile, and backend development, with experience leading projects, operating services, and collaborating in various competitions.
 
 ## Tech Stack
 
